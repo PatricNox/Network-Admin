@@ -2,6 +2,10 @@
 With this website tool you can easily control the other computers in the same local area network (LAN) as you.
 > All computers must obviously have been configured to be visible within the network!
 
+<p style="align: center;">
+    <img src="https://PatricNox.info/assets/networkadmin.png">
+</p>
+
 ### Usage Areas
 Main-Frame Computer for collection of different computers used in the same network.
 
