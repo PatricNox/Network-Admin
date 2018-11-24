@@ -9,3 +9,4 @@
 */
 
 require(__DIR__.'/nw/net.php');
+include_once(__DIR__.'/nw/view.php');
