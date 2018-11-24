@@ -6,6 +6,11 @@ With this website tool you can easily control the other computers in the same lo
     <img src="https://PatricNox.info/assets/networkadmin.png">
 </p>
 
+### TODO
+Project is still under development.
+Admin CLI is yet to be implemented, but is under construction!
+
+
 ### Usage Areas
 Main-Frame Computer for collection of different computers used in the same network.
 
