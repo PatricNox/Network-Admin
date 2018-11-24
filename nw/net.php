@@ -37,13 +37,13 @@ for ($i = 1; $i < count($ipList); $i++)
     $d = explode(' ', $ipList[$i]);
    
     if ($ip = $d[5])
-        array_push($lanPC_IPList, $ip);
+        array_push($_IPList, $ip);
 }
 
 /** Get Hostname from All Computers in LAN
 **************************************/
 $_NameList = [];
-foreach ($lanPC_IPList as $PC)
+foreach ($_IPList as $PC)
 {
     // Get and filter out hostnames
     $exec = shell_exec("nslookup $PC".' 2>&1');
@@ -53,5 +53,5 @@ foreach ($lanPC_IPList as $PC)
     // Remove lan tag and push into PCNames array
     $PCName = str_replace('.lan', '', $name[0]);
 
-    array_push($lanPC_NameList, trim($PCName));
+    array_push($_NameList, trim($PCName));
 }
