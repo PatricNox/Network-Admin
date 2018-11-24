@@ -55,3 +55,7 @@ foreach ($_IPList as $PC)
 
     array_push($_NameList, trim($PCName));
 }
+
+/** Combine IP and Name List into an associative array
+ ******************************************************/
+$NetworkPCList = array_combine($_NameList, $_IPList);
