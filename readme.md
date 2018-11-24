@@ -8,8 +8,18 @@ With this website tool you can easily control the other computers in the same lo
 
 ### TODO
 Project is still under development.
-Admin CLI is yet to be implemented, but is under construction!
+Administrative tools is yet to be implemented, but is under construction!
 
+* [+] Display Hostname & IPs from each PC in network
+* [+] Graphical User Interface
+* [-] Feature tools to specified PC in Network
+
+> Tools to be featured
+* [-] Restart PC
+* [-] Shutdown PC
+* [-] Send message to PC
+* [-] Schedule events to PC
+* [-] Remote Connect to PC via Shell
 
 ### Usage Areas
 Main-Frame Computer for collection of different computers used in the same network.
