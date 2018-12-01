@@ -20,6 +20,8 @@ Administrative tools is yet to be implemented, but is under construction!
 * [-] Send message to PC
 * [-] Schedule events to PC
 * [-] Remote Connect to PC via Shell
+* [-] Linux Support
+* [-] OS X Support
 
 ### Usage Areas
 Main-Frame Computer for collection of different computers used in the same network.
