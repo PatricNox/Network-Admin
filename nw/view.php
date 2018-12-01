@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://localhost:3000/browser-sync/browser-sync-client.js?v=2.18.11'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+    <style>
+      .q {display:none;}
+    </style>
     <title>PatricNox Network-Admin</title>
     
 </head>
@@ -24,7 +30,7 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search host" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
@@ -47,5 +53,6 @@
       </div>
     </main>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="nw/inc/script.js"></script>
 </body>
 </html>
